@@ -152,3 +152,101 @@ a:hover {
     display: flex;
     width: 100%;
 }
+
+@media screen and (max-width: 800px) {
+    main {
+        width: 600px;
+    }
+
+    .first_section {
+        height: 280px;
+    }
+
+    .imagem-perfil {
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+    .first_section_child {
+        margin-top: -5px;
+    }
+
+    .auxiliar {
+        height: auto;
+    }
+
+    .fisrt_section_father {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second_section_father {
+        width: 96.5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        width: 400px;
+    }
+
+    .first_section {
+        height: 260px;
+    }
+
+    .second_section_father {
+        width: 94.5%;
+    }
+
+    h1 {
+        margin: 3px;
+        margin-top: -10px;
+        font-size: 32px;
+    }
+
+    .imagem-perfil {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    main {
+        width: 300px;
+    }
+
+    .first_section {
+        height: 280px;
+    }
+
+    .second_section_father {
+        width: 92.5%;
+    }
+
+    h1 {
+        margin: 3px;
+        font-size: 28px;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+    main {
+        width: 280px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 270px) {
+    main {
+        width: 200px;
+        margin-left: 90px;
+    }
+
+    .second_section_father {
+        width: 89.5%;
+    }
+
+    .texto-icone {
+        font-size: 11px;
+    }
+}
