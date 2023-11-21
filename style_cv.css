@@ -150,8 +150,8 @@ a:hover {
 
 .topicos {
     display: flex;
-    width: 100%;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 @media screen and (max-width: 800px) {
@@ -188,7 +188,7 @@ a:hover {
 
 @media screen and (max-width: 600px) {
     main {
-        width: 400px;
+        width: 100%;
     }
 
     .first_section {
@@ -212,7 +212,7 @@ a:hover {
 
 @media screen and (max-width: 400px) {
     main {
-        width: 300px;
+        width: 100%;
     }
 
     .first_section {
@@ -230,17 +230,15 @@ a:hover {
 
 }
 
-@media screen and (max-width: 300px) {
-    main {
-        width: 280px;
-        margin-left: 10px;
-    }
-}
 
 @media screen and (max-width: 270px) {
     main {
-        width: 200px;
+        min-width: 200px;
         margin-left: 90px;
+    }
+
+    main section {
+        min-width: 300px;
     }
 
     .second_section_father {
